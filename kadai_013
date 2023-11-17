@@ -1,0 +1,7 @@
+def total_price(mcd_price, tax):
+
+  toal_price = mcd_price + tax
+
+  print(f"税込み金額は{toal_price}円です。")
+
+total_price(500, 50)
